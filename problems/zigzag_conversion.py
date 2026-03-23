@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # THE STIRNG IS WRITTEN IN ZIGZAG PETTER ON A GIVEN NUMBER OF ROWS
 # WRITE THE CODE THAT WILL TAKE A STING AND MAKE COVERSION GIVEN BY NUMBER OF ROWS
 # INPUT: s = "PAYPALISHIRING", numRows = 3
@@ -37,3 +38,19 @@ class Solution:
         
         # Join all rows into one string
         return "".join(rows)
+
+
+if __name__ == "__main__":
+    solution = Solution()
+    test_cases = [
+        ("PAYPALISHIRING", 3),
+        ("PAYPALISHIRING", 4),
+        ("Hello World!", 3),
+        ("A", 1)
+    ]
+    
+    for s, num_rows in test_cases:
+        result = solution.convert(s, num_rows)
+        print(f"Input: s = \"{s}\", numRows = {num_rows}")
+        print(f"Output: \"{result}\"")
+        print()
