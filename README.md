@@ -1,6 +1,8 @@
-# Python Snake Game
+# leetcode-practice
 
-This repo now includes a Python 3 Snake game in the `snake_game/` folder.
+LeetCode solutions in Python with unit tests, complexity analysis, and clean code structure for interview preparation.
+
+This repo also includes a Python 3 Snake game in the `snake_game/` folder.
 
 ## Run
 
